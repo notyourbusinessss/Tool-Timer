@@ -16,7 +16,7 @@ if errorlevel 1 (
 
 :: 2. Compile timer.cpp
 echo Compiling %SOURCE%...
-g++ %SOURCE% -o %EXENAME%
+g++ %SOURCE% -o %EXENAME% -municode -lgdi32 -luser32
 if errorlevel 1 (
     echo Compilation failed.
     pause
