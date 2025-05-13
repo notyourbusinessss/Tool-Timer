@@ -14,7 +14,7 @@ Options:
 2. Open a terminal and run:
 
 ```bash
-git clone https://github.com/your-username/timer-tool
+git clone https://github.com/notyourbusinessss/Tool-Time
 cd timer-tool
 setup.bat  ← run this file
 ```
