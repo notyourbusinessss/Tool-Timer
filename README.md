@@ -1,5 +1,5 @@
 # Usage : 
-This is what timer --help gives :\
+This is what timer --help gives :
 ```bash
 Options:
   -T <time>       Set countdown time. Use seconds (e.g. -T 90),
