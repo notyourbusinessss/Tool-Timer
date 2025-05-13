@@ -9,7 +9,7 @@ Options:
   -h, --help      Show this help message
 ```
 
-# 🛠 Installation (Windows)
+# Automatic Installation (Windows)
 1. Install [g++ via MSYS2 or MinGW](https://www.msys2.org/)
 2. Open a terminal and run:
 
@@ -24,3 +24,36 @@ setup.bat  ← run this file
 timer -T 60m [...]
 ```
 
+# Manual instalation 
+1. Install [g++ via MSYS2 or MinGW](https://www.msys2.org/)
+2. Clone repo
+```bash
+git clone https://github.com/notyourbusinessss/Tool-Time
+cd timer-tool
+```
+3. Compile the program 
+```bash
+g++ timer.cpp -o timer.exe -municode -lgdi32 -luser32
+```
+4. create the instalation Directory 
+For example 
+```
+mkdir C:\Tools
+```
+5. move the executable 
+```bash
+copy timer.exe C:\Tools\
+```
+6. Add the Folder to Your System PATH
+Open the Start Menu, search "Environment Variables", and click "Edit the system environment variables"
+
+In the window that appears, click "Environment Variables..."
+
+Under System variables, find Path, select it, and click Edit
+
+Click New, then add:
+```bash
+C:\tools
+```
+Finally click ok.
+7. Restart the terminal !
